@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">  
+     <title>Weather Page</title>
+</head>
+<body>
+    <h1 >The Weather Here</h1>
+    <div class="lnk"><a href="/"> Home </a>|<a href="/logs">Map database</a></div>
+   <div class="info">
+    <p> latitude is :<span id='lat'></span>&deg;</p>
+     <p> longitude is :<span id='lon'></span>&deg;</p>
+     <p>
+      The weather here is <span id="humidity"></span>% humid
+      with a temperature of <span id='temp'></span>°C
+     </p>
+    </div>
+    <div class="btn"> 
+    <input type="text" id="city" placeholder="Enter your city"> 
+    <button id="button"> Submit</button>
+  </div>
+  <script src="sketch.js"> </script>
+  
+</body>
+</html> 
